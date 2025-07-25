@@ -11,7 +11,7 @@ public class zeoresatend {
         for (int i = 0; i< length; i++) {
            array.add(sc.nextInt());
         } 
-        int countofzeroes=0;
+        int countofzeroes=0; 
         ArrayList<Integer> newarray=new ArrayList<>();
        for (Integer num : array) {
         if (num!=0) {
